@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Videojuego 2D Pacman</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Favicon -->
+    <link rel="icon" href="assets/iconopacman.png">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="bg-dark text-white text-center p-3">
+        <h1>VideoJuego 2D 👻</h1>
+        <img src="assets/iconopacman.png" width="100">
+    </header>
+
+    <!-- INSTRUCCIONES -->
+    <div class="container text-center mt-3">
+        <p>Haz clic en los fantasmitas para eliminarlos. ¡Aparecerán en otro lugar!</p>
+    </div>
+
+    <!-- MAIN -->
+    <main class="container text-center mt-3">
+        <canvas id="gameCanvas" width="800" height="500"></canvas>
+        <h3>Clicks: <span id="contador">0</span></h3>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="bg-dark text-white text-center p-3 mt-3">
+        <p>Nombre: Alexander Jahaziel Farias Villa, Levi Jafet Juarez Chilpa | No. Control: 23200834, 23200852</p>
+    </footer>
+
+    <!-- Música -->
+    <audio id="bgMusic" src="assets/audiomp3.mp3" loop></audio>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

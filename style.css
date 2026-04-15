@@ -1,0 +1,9 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+canvas {
+    border: 2px solid white;
+    cursor: url('assets/cursorp.ico') 0 0, pointer;
+}
